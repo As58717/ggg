@@ -1,0 +1,166 @@
+#include "/Engine/Public/Platform.ush"
+
+RWTexture2D<float4> OutputTexture;
+Texture2D FacePX;
+Texture2D FaceNX;
+Texture2D FacePY;
+Texture2D FaceNY;
+Texture2D FacePZ;
+Texture2D FaceNZ;
+SamplerState FaceSampler;
+
+cbuffer Parameters
+{
+    int2 OutputResolution;
+    int EyeIndex;
+    int GammaMode;
+    float Padding;
+};
+
+float4 SampleCubemap(float3 Direction)
+{
+    float3 AbsDirection = abs(Direction);
+    float2 UV;
+    float4 Sampled;
+
+    if (AbsDirection.x >= AbsDirection.y && AbsDirection.x >= AbsDirection.z)
+    {
+        if (Direction.x > 0)
+        {
+            UV = float2(-Direction.z, Direction.y) / AbsDirection.x;
+            Sampled = FacePX.SampleLevel(FaceSampler, UV * 0.5 + 0.5, 0);
+        }
+        else
+        {
+            UV = float2(Direction.z, Direction.y) / AbsDirection.x;
+            Sampled = FaceNX.SampleLevel(FaceSampler, UV * 0.5 + 0.5, 0);
+        }
+    }
+    else if (AbsDirection.y >= AbsDirection.x && AbsDirection.y >= AbsDirection.z)
+    {
+        if (Direction.y > 0)
+        {
+            UV = float2(Direction.x, -Direction.z) / AbsDirection.y;
+            Sampled = FacePY.SampleLevel(FaceSampler, UV * 0.5 + 0.5, 0);
+        }
+        else
+        {
+            UV = float2(Direction.x, Direction.z) / AbsDirection.y;
+            Sampled = FaceNY.SampleLevel(FaceSampler, UV * 0.5 + 0.5, 0);
+        }
+    }
+    else
+    {
+        if (Direction.z > 0)
+        {
+            UV = float2(Direction.x, Direction.y) / AbsDirection.z;
+            Sampled = FacePZ.SampleLevel(FaceSampler, UV * 0.5 + 0.5, 0);
+        }
+        else
+        {
+            UV = float2(-Direction.x, Direction.y) / AbsDirection.z;
+            Sampled = FaceNZ.SampleLevel(FaceSampler, UV * 0.5 + 0.5, 0);
+        }
+    }
+
+    return Sampled;
+}
+
+float3 ApplySeamFix(float3 Direction, float FixAmount)
+{
+    if (FixAmount <= 0.0)
+    {
+        return Direction;
+    }
+
+    float3 AbsDirection = abs(Direction);
+    float MaxComponent = max(max(AbsDirection.x, AbsDirection.y), AbsDirection.z);
+    if (MaxComponent <= 0.0)
+    {
+        return Direction;
+    }
+
+    float3 Normalized = Direction / MaxComponent;
+    float Scale = saturate(1.0 - FixAmount);
+    Normalized *= Scale;
+    return normalize(Normalized);
+}
+
+float3 ApplyGammaByMode(float3 LinearColor, int Mode)
+{
+    if (Mode == 0)
+    {
+        float3 Clamped = saturate(LinearColor);
+        return pow(Clamped, 1.0 / 2.2);
+    }
+
+    return saturate(LinearColor);
+}
+
+float3 ApplyGamma(float3 LinearColor)
+{
+    return ApplyGammaByMode(LinearColor, GammaMode);
+}
+
+[numthreads(8, 8, 1)]
+void MainCS(uint3 DispatchThreadId : SV_DispatchThreadID)
+{
+    if (DispatchThreadId.x >= OutputResolution.x || DispatchThreadId.y >= OutputResolution.y)
+    {
+        return;
+    }
+
+    float2 PixelCoord = (float2(DispatchThreadId.xy) + 0.5) / float2(OutputResolution);
+
+    float Phi = (PixelCoord.x * 2.0 - 1.0) * PI;
+    float Theta = (0.5 - PixelCoord.y) * PI;
+
+    float3 Direction;
+    Direction.x = cos(Theta) * sin(Phi);
+    Direction.y = sin(Theta);
+    Direction.z = cos(Theta) * cos(Phi);
+
+    Direction = ApplySeamFix(Direction, Padding);
+    float4 Sampled = SampleCubemap(normalize(Direction));
+    float3 Color = ApplyGamma(Sampled.rgb);
+
+    OutputTexture[DispatchThreadId.xy] = float4(Color, Sampled.a);
+}
+
+Texture2D<float4> NVENCSourceTexture;
+RWTexture2D<uint4> NVENCOutputTexture;
+
+cbuffer NVENCParameters
+{
+    int2 NVENCOutputResolution;
+    int2 NVENCSourceResolution;
+    int NVENCGammaMode;
+    int2 NVENCOffset;
+};
+
+[numthreads(8, 8, 1)]
+void ConvertToNVENCBGRA(uint3 DispatchThreadId : SV_DispatchThreadID)
+{
+    if (DispatchThreadId.x >= NVENCSourceResolution.x || DispatchThreadId.y >= NVENCSourceResolution.y)
+    {
+        return;
+    }
+
+    const int2 SourceCoord = int2(DispatchThreadId.xy);
+    const int2 DestCoord = SourceCoord + NVENCOffset;
+
+    if (DestCoord.x >= NVENCOutputResolution.x || DestCoord.y >= NVENCOutputResolution.y)
+    {
+        return;
+    }
+
+    float4 Sampled = NVENCSourceTexture.Load(int3(SourceCoord, 0));
+    float3 GammaCorrected = ApplyGammaByMode(Sampled.rgb, NVENCGammaMode);
+    float3 Clamped = saturate(GammaCorrected);
+
+    uint3 Quantized = (uint3)round(Clamped * 255.0f);
+    uint Alpha = (uint)round(saturate(Sampled.a) * 255.0f);
+
+    // NVENC expects BGRA ordering when submitting ARGB textures.
+    NVENCOutputTexture[DestCoord] = uint4(Quantized.b, Quantized.g, Quantized.r, Alpha);
+}
