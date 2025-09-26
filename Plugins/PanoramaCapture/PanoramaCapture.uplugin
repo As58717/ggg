@@ -1,0 +1,44 @@
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "1.0.0",
+    "FriendlyName": "Panorama Capture",
+    "Description": "Windows-only panoramic capture plugin with NVENC/FFmpeg integration and audio/video synchronization.",
+    "Category": "Rendering",
+    "CreatedBy": "AI Assistant",
+    "CreatedByURL": "https://openai.com",
+    "DocsURL": "",
+    "MarketplaceURL": "",
+    "SupportURL": "",
+    "EnabledByDefault": false,
+    "CanContainContent": true,
+    "IsBetaVersion": true,
+    "IsExperimentalVersion": true,
+    "Modules": [
+        {
+            "Name": "PanoramaCapture",
+            "Type": "Runtime",
+            "LoadingPhase": "Default",
+            "WhitelistPlatforms": [
+                "Win64"
+            ]
+        },
+        {
+            "Name": "PanoramaCaptureEditor",
+            "Type": "Editor",
+            "LoadingPhase": "PostEngineInit",
+            "WhitelistPlatforms": [
+                "Win64"
+            ]
+        }
+    ],
+    "Plugins": [
+        {
+            "Name": "RenderCore",
+            "Enabled": true
+        }
+    ],
+    "SupportedTargetPlatforms": ["Win64"],
+    "EngineVersion": "5.4.0",
+    "CanBeUsedWithUnrealVersionRange": "5.4.0-5.6.99"
+}
