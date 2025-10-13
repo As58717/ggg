@@ -1,0 +1,986 @@
+生成开始于 9:58...
+1>------ 已启动生成: 项目: EpicGames.UBA, 配置: Development Any CPU ------
+2>------ 已启动生成: 项目: EpicGames.Oodle, 配置: Development Any CPU ------
+3>------ 已启动生成: 项目: EpicGames.OIDC, 配置: Development Any CPU ------
+4>------ 已启动生成: 项目: EpicGames.Core, 配置: Development Any CPU ------
+未能还原 X:\UE_5.6\Engine\Source\Programs\AutomationTool\AutomationUtils\AutomationUtils.Automation.csproj (用时 278 毫秒)。
+未能还原 X:\UE_5.6\Engine\Source\Programs\AutomationTool\Gauntlet\Gauntlet.Automation.csproj (用时 278 毫秒)。
+NuGet 包还原失败。请查看“错误列表”窗口了解详细警告和错误。
+3>EpicGames.OIDC -> X:\UE_5.6\Engine\Source\Programs\Shared\EpicGames.OIDC\bin\Development\net8.0\EpicGames.OIDC.dll
+2>EpicGames.Oodle -> X:\UE_5.6\Engine\Source\Programs\Shared\EpicGames.Oodle\bin\Development\net8.0\EpicGames.Oodle.dll
+4>EpicGames.Core -> X:\UE_5.6\Engine\Source\Programs\Shared\EpicGames.Core\bin\Development\net8.0\EpicGames.Core.dll
+1>EpicGames.UBA -> X:\UE_5.6\Engine\Source\Programs\Shared\EpicGames.UBA\bin\Development\net8.0\EpicGames.UBA.dll
+5>------ 已启动生成: 项目: EpicGames.MsBuild, 配置: Development Any CPU ------
+6>------ 已启动生成: 项目: EpicGames.IoHash, 配置: Development Any CPU ------
+6>EpicGames.IoHash -> X:\UE_5.6\Engine\Source\Programs\Shared\EpicGames.IoHash\bin\Development\net8.0\EpicGames.IoHash.dll
+7>------ 已启动生成: 项目: EpicGames.Serialization, 配置: Development Any CPU ------
+5>EpicGames.MsBuild -> X:\UE_5.6\Engine\Source\Programs\Shared\EpicGames.MsBuild\bin\Development\net8.0\EpicGames.MsBuild.dll
+8>------ 已启动生成: 项目: EpicGames.Build, 配置: Development Any CPU ------
+7>EpicGames.Serialization -> X:\UE_5.6\Engine\Source\Programs\Shared\EpicGames.Serialization\bin\Development\net8.0\EpicGames.Serialization.dll
+9>------ 已启动生成: 项目: EpicGames.Horde, 配置: Development Any CPU ------
+8>EpicGames.Build -> X:\UE_5.6\Engine\Source\Programs\Shared\EpicGames.Build\bin\Development\net8.0\EpicGames.Build.dll
+10>------ 已启动生成: 项目: EpicGames.UHT, 配置: Development Any CPU ------
+10>EpicGames.UHT -> X:\UE_5.6\Engine\Source\Programs\Shared\EpicGames.UHT\bin\Development\net8.0\EpicGames.UHT.dll
+9>EpicGames.Horde -> X:\UE_5.6\Engine\Source\Programs\Shared\EpicGames.Horde\bin\Development\net8.0\EpicGames.Horde.dll
+11>------ 已启动生成: 项目: UnrealBuildTool, 配置: Development Any CPU ------
+11>UnrealBuildTool -> X:\UE_5.6\Engine\Source\Programs\UnrealBuildTool\bin\Development\UnrealBuildTool.dll
+12>------ 已启动生成: 项目: JJJ, 配置: Development_Editor x64 ------
+12>Using bundled DotNet SDK version: 8.0.300 win-x64
+12>Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" JJJEditor Win64 Development -Project="C:\Users\Administrator\Documents\Unreal Projects\JJJ\JJJ.uproject" -WaitMutex -FromMsBuild -architecture=x64
+12>Log file: C:\Users\Administrator\AppData\Local\UnrealBuildTool\Log.txt
+12>Invalidating makefile for JJJEditor (SharedPCH.Core.Cpp20.cpp modified)
+12>Parsing headers for JJJEditor
+12>  Running Internal UnrealHeaderTool "C:\Users\Administrator\Documents\Unreal Projects\JJJ\JJJ.uproject" "C:\Users\Administrator\Documents\Unreal Projects\JJJ\Intermediate\Build\Win64\JJJEditor\Development\JJJEditor.uhtmanifest" -WarningsAsErrors -installed
+12>Total of 16 written
+12>Reflection code generated for JJJEditor in 2.2084362 seconds
+12>Building JJJEditor...
+12>Using Visual Studio 2022 14.38.33145 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+12>[Adaptive Build] Excluded from OmniCaptureEditor unity file: OmniCaptureEditorModule.cpp, OmniCaptureEditorSettings.cpp, SOmniCaptureControlPanel.cpp
+12>Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+12>  Executing up to 8 processes, one per physical core
+12>Using Unreal Build Accelerator local executor to run 30 action(s)
+12>  Storage capacity 40Gb
+12>---- Starting trace: 251013_100024_vs19952 ----
+12>UbaServer - Listening on 0.0.0.0:1345
+12>------ Building 30 action(s) started ------
+12>[1/30] Resource Default.rc2
+12>[2/30] Resource Default.rc2
+12>[3/30] Resource Default.rc2
+12>[4/30] Compile [x64] SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.cpp
+12>[5/30] Compile [x64] OmniCaptureMuxer.cpp
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): error C2065: “FImagePixelData”: 未声明的标识符
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): note: 参见“FImagePixelData”的声明
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2976: “TUniquePtr'”: 模板 参数太少
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,30): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>[6/30] Compile [x64] OmniCaptureDirectorActor.cpp
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): error C2065: “FImagePixelData”: 未声明的标识符
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): note: 参见“FImagePixelData”的声明
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2976: “TUniquePtr'”: 模板 参数太少
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,30): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>[7/30] Compile [x64] OmniCapturePNGWriter.cpp
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): error C2065: “FImagePixelData”: 未声明的标识符
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): note: 参见“FImagePixelData”的声明
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2976: “TUniquePtr'”: 模板 参数太少
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,30): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCapturePNGWriter.cpp(34,111): error C2039: "GetImageWriteQueue": 不是 "IImageWriteQueueModule" 的成员
+12>        ImageWriteQueue = &FModuleManager::LoadModuleChecked<IImageWriteQueueModule>(TEXT("ImageWriteQueue")).GetImageWriteQueue();
+12>                                                                                                              ^
+12>X:\UE_5.6\Engine\Source\Runtime\ImageWriteQueue\Public\ImageWriteQueue.h(62,7): note: 参见“IImageWriteQueueModule”的声明
+12>class IImageWriteQueueModule : public IModuleInterface
+12>      ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCapturePNGWriter.cpp(39,43): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+12>        static FImageWriteQueue LocalQueue;
+12>                                          ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCapturePNGWriter.cpp(39,33): error C2146: 语法错误: 缺少“;”(在标识符“LocalQueue”的前面)
+12>        static FImageWriteQueue LocalQueue;
+12>                                ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCapturePNGWriter.cpp(39,33): error C2065: “LocalQueue”: 未声明的标识符
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCapturePNGWriter.cpp(40,28): error C2065: “LocalQueue”: 未声明的标识符
+12>        ImageWriteQueue = &LocalQueue;
+12>                           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCapturePNGWriter.cpp(53,23): error C2672: “MoveTemp”: 未找到匹配的重载函数
+12>    Task->PixelData = MoveTemp(Frame->PixelData);
+12>                      ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UnrealTemplate.h(549,81): note: 可能是“remove_reference<_Ty>::type &&MoveTemp(T &&) noexcept”
+12>UE_INTRINSIC_CAST UE_NODEBUG FORCEINLINE constexpr std::remove_reference_t<T>&& MoveTemp(T&& Obj) noexcept
+12>                                                                                ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCapturePNGWriter.cpp(53,23): note: 未能使函数模板“remove_reference<_Ty>::type &&MoveTemp(T &&) noexcept”专用化
+12>    Task->PixelData = MoveTemp(Frame->PixelData);
+12>                      ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCapturePNGWriter.cpp(53,23): note: 用下列模板参数:
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCapturePNGWriter.cpp(53,23): note: “T=TUniquePtr &”
+12>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\INCLUDE\xtr1common(236,78): note: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>using _Remove_cvref_t _MSVC_KNOWN_SEMANTICS = remove_cv_t<remove_reference_t<_Ty>>;
+12>                                                                             ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCapturePNGWriter.cpp(54,11): error C2039: "bSupports16Bit": 不是 "FImageWriteTask" 的成员
+12>    Task->bSupports16Bit = Frame->bLinearColor;
+12>          ^
+12>X:\UE_5.6\Engine\Source\Runtime\ImageWriteQueue\Public\ImageWriteTask.h(47,7): note: 参见“FImageWriteTask”的声明
+12>class FImageWriteTask
+12>      ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCapturePNGWriter.cpp(64,45): error C2039: "Flush": 不是 "IImageWriteQueue" 的成员
+12>    if (ImageWriteQueue) { ImageWriteQueue->Flush(); ImageWriteQueue = nullptr; }
+12>                                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\ImageWriteQueue\Public\ImageWriteQueue.h(26,7): note: 参见“IImageWriteQueue”的声明
+12>class IImageWriteQueue
+12>      ^
+12>[8/30] Compile [x64] Module.OmniCapture.gen.cpp
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): error C2065: “FImagePixelData”: 未声明的标识符
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): note: 参见“FImagePixelData”的声明
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2976: “TUniquePtr'”: 模板 参数太少
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,30): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>[9/30] Compile [x64] OmniCaptureRingBuffer.cpp
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): error C2065: “FImagePixelData”: 未声明的标识符
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): note: 参见“FImagePixelData”的声明
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2976: “TUniquePtr'”: 模板 参数太少
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,30): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>[10/30] Compile [x64] OmniCapturePreviewActor.cpp
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): error C2065: “FImagePixelData”: 未声明的标识符
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): note: 参见“FImagePixelData”的声明
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2976: “TUniquePtr'”: 模板 参数太少
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,30): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(10,16): error C2065: “FImagePixelData”: 未声明的标识符
+12>    TUniquePtr<FImagePixelData> PixelData;
+12>               ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(10,5): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>    TUniquePtr<FImagePixelData> PixelData;
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(10,16): note: 参见“FImagePixelData”的声明
+12>    TUniquePtr<FImagePixelData> PixelData;
+12>               ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(10,5): error C2976: “TUniquePtr'”: 模板 参数太少
+12>    TUniquePtr<FImagePixelData> PixelData;
+12>    ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(10,33): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>    TUniquePtr<FImagePixelData> PixelData;
+12>                                ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(16,5): warning C4996: 'FTexture2DRHIRef': The separate RHI texture types were unified in UE 5.1. FTexture2DRHIRef is now deprecated. Use FTextureRHIRef instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    FTexture2DRHIRef Texture;
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCapturePreviewActor.cpp(105,21): error C2039: "UpdateResourceImmediate": 不是 "UTexture2D" 的成员
+12>    PreviewTexture->UpdateResourceImmediate();
+12>                    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCapturePreviewActor.h(9,7): note: 参见“UTexture2D”的声明
+12>class UTexture2D;
+12>      ^
+12>[11/30] Compile [x64] OmniCaptureRigActor.cpp
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): error C2065: “FImagePixelData”: 未声明的标识符
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): note: 参见“FImagePixelData”的声明
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2976: “TUniquePtr'”: 模板 参数太少
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,30): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>[12/30] Compile [x64] OmniCaptureEquirectConverter.cpp
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): error C2065: “FImagePixelData”: 未声明的标识符
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): note: 参见“FImagePixelData”的声明
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2976: “TUniquePtr'”: 模板 参数太少
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,30): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(10,16): error C2065: “FImagePixelData”: 未声明的标识符
+12>    TUniquePtr<FImagePixelData> PixelData;
+12>               ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(10,5): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>    TUniquePtr<FImagePixelData> PixelData;
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(10,16): note: 参见“FImagePixelData”的声明
+12>    TUniquePtr<FImagePixelData> PixelData;
+12>               ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(10,5): error C2976: “TUniquePtr'”: 模板 参数太少
+12>    TUniquePtr<FImagePixelData> PixelData;
+12>    ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(10,33): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>    TUniquePtr<FImagePixelData> PixelData;
+12>                                ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(16,5): warning C4996: 'FTexture2DRHIRef': The separate RHI texture types were unified in UE 5.1. FTexture2DRHIRef is now deprecated. Use FTextureRHIRef instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    FTexture2DRHIRef Texture;
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureEquirectConverter.cpp(13,1): fatal error C1083: 无法打开包括文件: “ComputeShaderUtils.h”: No such file or directory
+12>#include "ComputeShaderUtils.h"
+12>^
+12>[13/30] Compile [x64] Module.OmniCaptureEditor.cpp
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): error C2065: “FImagePixelData”: 未声明的标识符
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): note: 参见“FImagePixelData”的声明
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2976: “TUniquePtr'”: 模板 参数太少
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,30): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>[14/30] Compile [x64] OmniCaptureAudioRecorder.cpp
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): error C2065: “FImagePixelData”: 未声明的标识符
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): note: 参见“FImagePixelData”的声明
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2976: “TUniquePtr'”: 模板 参数太少
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,30): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureAudioRecorder.cpp(47,6): error C2678: 二进制“+”: 没有找到接受“TWeakObjectPtr<USoundSubmix,FWeakObjectPtr>”类型的左操作数的运算符(或没有可接受的转换)
+12>    +TargetSubmix = Settings.SubmixToRecord.Get();
+12>     ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureAudioRecorder.cpp(47,6): note: 可以是“内置 C++ operator+(int)”
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Memory\MemoryView.h(251,54): note: 或    “TMemoryView<DataType> operator +(uint64,const TMemoryView<DataType> &)”
+12>[[nodiscard]] constexpr inline TMemoryView<DataType> operator+(uint64 Offset, const TMemoryView<DataType>& View)
+12>                                                     ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Memory\MemoryView.h(244,54): note: 或    “TMemoryView<DataType> operator +(const TMemoryView<DataType> &,uint64)”
+12>[[nodiscard]] constexpr inline TMemoryView<DataType> operator+(const TMemoryView<DataType>& View, uint64 Offset)
+12>                                                     ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Containers\Array.h(192,102): note: 或    “TIndexedContainerIterator<ContainerType,ElementType,SizeType> operator +(SizeType,TIndexedContainerIterator<ContainerType,ElementType,SizeType>)”
+12>UE_NODEBUG [[nodiscard]] FORCEINLINE TIndexedContainerIterator<ContainerType, ElementType, SizeType> operator+(SizeType Offset, TIndexedContainerIterator<ContainerType, ElementType, SizeType> RHS)
+12>                                                                                                     ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureAudioRecorder.cpp(47,6): note: 尝试匹配参数列表“(TWeakObjectPtr<USoundSubmix,FWeakObjectPtr>)”时
+12>    +TargetSubmix = Settings.SubmixToRecord.Get();
+12>     ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureAudioRecorder.cpp(47,5): error C2088: “+”: 对于 struct 非法
+12>    +TargetSubmix = Settings.SubmixToRecord.Get();
+12>    ^
+12>[15/30] Compile [x64] OmniCaptureEditorSettings.cpp
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): error C2065: “FImagePixelData”: 未声明的标识符
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): note: 参见“FImagePixelData”的声明
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2976: “TUniquePtr'”: 模板 参数太少
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,30): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>[16/30] Compile [x64] OmniCaptureEditorModule.cpp
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): error C2065: “FImagePixelData”: 未声明的标识符
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): note: 参见“FImagePixelData”的声明
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2976: “TUniquePtr'”: 模板 参数太少
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,30): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCaptureEditor\Private\OmniCaptureEditorModule.cpp(33,21): error C2039: "IsAvailable": 不是 "UToolMenus" 的成员
+12>    if (UToolMenus::IsAvailable())
+12>                    ^
+12>X:\UE_5.6\Engine\Source\Developer\ToolMenus\Public\ToolMenus.h(100,7): note: 参见“UToolMenus”的声明
+12>class UToolMenus : public UObject
+12>      ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCaptureEditor\Private\OmniCaptureEditorModule.cpp(33,21): error C3861: “IsAvailable”: 找不到标识符
+12>    if (UToolMenus::IsAvailable())
+12>                    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCaptureEditor\Private\OmniCaptureEditorModule.cpp(37,25): error C2039: "UnregisterStartupCallback": 不是 "UToolMenus" 的成员
+12>            UToolMenus::UnregisterStartupCallback(MenuRegistrationHandle);
+12>                        ^
+12>X:\UE_5.6\Engine\Source\Developer\ToolMenus\Public\ToolMenus.h(100,7): note: 参见“UToolMenus”的声明
+12>class UToolMenus : public UObject
+12>      ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCaptureEditor\Private\OmniCaptureEditorModule.cpp(37,25): error C3861: “UnregisterStartupCallback”: 找不到标识符
+12>            UToolMenus::UnregisterStartupCallback(MenuRegistrationHandle);
+12>                        ^
+12>[17/30] Compile [x64] PerModuleInline.gen.cpp
+12>[18/30] Compile [x64] PerModuleInline.gen.cpp
+12>[19/30] Compile [x64] JJJ.cpp
+12>[20/30] Compile [x64] OmniCaptureNVENCEncoder.cpp
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): error C2065: “FImagePixelData”: 未声明的标识符
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): note: 参见“FImagePixelData”的声明
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2976: “TUniquePtr'”: 模板 参数太少
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,30): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureNVENCEncoder.h(50,27): warning C4996: 'AVEncoder::FVideoEncoder': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    TSharedPtr<AVEncoder::FVideoEncoder> VideoEncoder;
+12>                          ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureNVENCEncoder.h(51,27): warning C4996: 'AVEncoder::FVideoEncoderInput': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    TSharedPtr<AVEncoder::FVideoEncoderInput> EncoderInput;
+12>                          ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureNVENCEncoder.h(52,31): warning C4996: 'AVEncoder::FVideoEncoder::FLayerConfig': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    AVEncoder::FVideoEncoder::FLayerConfig LayerConfig;
+12>                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureNVENCEncoder.h(53,31): error C2039: "FCodecConfig": 不是 "AVEncoder::FVideoEncoder" 的成员
+12>    AVEncoder::FVideoEncoder::FCodecConfig CodecConfig;
+12>                              ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoder.h(22,111): note: 参见“AVEncoder::FVideoEncoder”的声明
+12>    class UE_DEPRECATED(5.4, "AVEncoder has been deprecated. Please use the AVCodecs plugin family instead.") FVideoEncoder
+12>                                                                                                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureNVENCEncoder.h(53,44): error C3646: “CodecConfig”: 未知重写说明符
+12>    AVEncoder::FVideoEncoder::FCodecConfig CodecConfig;
+12>                                           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureNVENCEncoder.h(53,55): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+12>    AVEncoder::FVideoEncoder::FCodecConfig CodecConfig;
+12>                                                      ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(26,16): error C2039: "EVideoFormat": 不是 "AVEncoder" 的成员
+12>    AVEncoder::EVideoFormat ToVideoFormat(EOmniCaptureColorFormat Format)
+12>               ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoderCommon.h(13,11): note: 参见“AVEncoder”的声明
+12>namespace AVEncoder
+12>          ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(26,42): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+12>    AVEncoder::EVideoFormat ToVideoFormat(EOmniCaptureColorFormat Format)
+12>                                         ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(26,29): error C2146: 语法错误: 缺少“;”(在标识符“ToVideoFormat”的前面)
+12>    AVEncoder::EVideoFormat ToVideoFormat(EOmniCaptureColorFormat Format)
+12>                            ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(27,5): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+12>    {
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(27,5): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(71,26): error C2079: “DriverInfo”使用未定义的 struct“FGPUDriverInfo”
+12>    const FGPUDriverInfo DriverInfo = FPlatformMisc::GetGPUDriverInfo(FGPUDriverInfo::EDeviceType::Primary);
+12>                         ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(71,87): error C2027: 使用了未定义类型“FGPUDriverInfo”
+12>    const FGPUDriverInfo DriverInfo = FPlatformMisc::GetGPUDriverInfo(FGPUDriverInfo::EDeviceType::Primary);
+12>                                                                                      ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\GenericPlatform\GenericPlatformMisc.h(776,25): note: 参见“FGPUDriverInfo”的声明
+12>	static CORE_API struct FGPUDriverInfo GetGPUDriverInfo(const FString& DeviceDescription);
+12>	                       ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(71,100): error C2065: “Primary”: 未声明的标识符
+12>    const FGPUDriverInfo DriverInfo = FPlatformMisc::GetGPUDriverInfo(FGPUDriverInfo::EDeviceType::Primary);
+12>                                                                                                   ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(128,16): warning C4996: 'AVEncoder::FVideoEncoderInput': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    AVEncoder::FVideoEncoderInput::FCreateParameters CreateParameters;
+12>               ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(128,36): error C2039: "FCreateParameters": 不是 "AVEncoder::FVideoEncoderInput" 的成员
+12>    AVEncoder::FVideoEncoderInput::FCreateParameters CreateParameters;
+12>                                   ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoderFactory.h(19,8): note: 参见“AVEncoder::FVideoEncoderInput”的声明
+12>	class FVideoEncoderInput;
+12>	      ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(128,36): error C2065: “FCreateParameters”: 未声明的标识符
+12>    AVEncoder::FVideoEncoderInput::FCreateParameters CreateParameters;
+12>                                   ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(128,54): error C2146: 语法错误: 缺少“;”(在标识符“CreateParameters”的前面)
+12>    AVEncoder::FVideoEncoderInput::FCreateParameters CreateParameters;
+12>                                                     ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(128,54): error C2065: “CreateParameters”: 未声明的标识符
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(129,5): error C2065: “CreateParameters”: 未声明的标识符
+12>    CreateParameters.Width = OutputWidth;
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(130,5): error C2065: “CreateParameters”: 未声明的标识符
+12>    CreateParameters.Height = OutputHeight;
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(131,5): error C2065: “CreateParameters”: 未声明的标识符
+12>    CreateParameters.Format = ToVideoFormat(ColorFormat);
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(131,31): error C3861: “ToVideoFormat”: 找不到标识符
+12>    CreateParameters.Format = ToVideoFormat(ColorFormat);
+12>                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(132,5): error C2065: “CreateParameters”: 未声明的标识符
+12>    CreateParameters.MaxBufferDimensions = FIntPoint(OutputWidth, OutputHeight);
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(133,5): error C2065: “CreateParameters”: 未声明的标识符
+12>    CreateParameters.DebugName = TEXT("OmniCaptureNVENC");
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(134,5): error C2065: “CreateParameters”: 未声明的标识符
+12>    CreateParameters.bAutoCopy = !bZeroCopyRequested;
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(136,31): warning C4996: 'AVEncoder::FVideoEncoderInput': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    EncoderInput = AVEncoder::FVideoEncoderInput::CreateForRHI(CreateParameters);
+12>                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(136,51): error C2039: "CreateForRHI": 不是 "AVEncoder::FVideoEncoderInput" 的成员
+12>    EncoderInput = AVEncoder::FVideoEncoderInput::CreateForRHI(CreateParameters);
+12>                                                  ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoderFactory.h(19,8): note: 参见“AVEncoder::FVideoEncoderInput”的声明
+12>	class FVideoEncoderInput;
+12>	      ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(136,64): error C2065: “CreateParameters”: 未声明的标识符
+12>    EncoderInput = AVEncoder::FVideoEncoderInput::CreateForRHI(CreateParameters);
+12>                                                               ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(136,51): error C3861: “CreateForRHI”: 找不到标识符
+12>    EncoderInput = AVEncoder::FVideoEncoderInput::CreateForRHI(CreateParameters);
+12>                                                  ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(143,30): warning C4996: 'AVEncoder::FVideoEncoder': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    LayerConfig = AVEncoder::FVideoEncoder::FLayerConfig();
+12>                             ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(143,45): warning C4996: 'AVEncoder::FVideoEncoder::FLayerConfig': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    LayerConfig = AVEncoder::FVideoEncoder::FLayerConfig();
+12>                                            ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(144,16): warning C4996: 'AVEncoder::FVideoEncoder::FLayerConfig::Width': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    LayerConfig.Width = OutputWidth;
+12>               ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(145,16): warning C4996: 'AVEncoder::FVideoEncoder::FLayerConfig::Height': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    LayerConfig.Height = OutputHeight;
+12>               ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(146,16): warning C4996: 'AVEncoder::FVideoEncoder::FLayerConfig::MaxFramerate': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    LayerConfig.MaxFramerate = 120;
+12>               ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(147,16): warning C4996: 'AVEncoder::FVideoEncoder::FLayerConfig::TargetBitrate': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    LayerConfig.TargetBitrate = Settings.Quality.TargetBitrateKbps * 1000;
+12>               ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(148,16): warning C4996: 'AVEncoder::FVideoEncoder::FLayerConfig::MaxBitrate': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    LayerConfig.MaxBitrate = FMath::Max<int32>(LayerConfig.TargetBitrate, Settings.Quality.MaxBitrateKbps * 1000);
+12>               ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(149,17): error C2039: "MinQp": 不是 "AVEncoder::FVideoEncoder::FLayerConfig" 的成员
+12>    LayerConfig.MinQp = 0;
+12>                ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoder.h(29,116): note: 参见“AVEncoder::FVideoEncoder::FLayerConfig”的声明
+12>        struct UE_DEPRECATED(5.4, "AVEncoder has been deprecated. Please use the AVCodecs plugin family instead.") FLayerConfig
+12>                                                                                                                   ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(150,17): error C2039: "MaxQp": 不是 "AVEncoder::FVideoEncoder::FLayerConfig" 的成员
+12>    LayerConfig.MaxQp = 51;
+12>                ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoder.h(29,116): note: 参见“AVEncoder::FVideoEncoder::FLayerConfig”的声明
+12>        struct UE_DEPRECATED(5.4, "AVEncoder has been deprecated. Please use the AVCodecs plugin family instead.") FLayerConfig
+12>                                                                                                                   ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(152,5): error C2065: “CodecConfig”: 未声明的标识符
+12>    CodecConfig = AVEncoder::FVideoEncoder::FCodecConfig();
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(152,30): warning C4996: 'AVEncoder::FVideoEncoder': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    CodecConfig = AVEncoder::FVideoEncoder::FCodecConfig();
+12>                             ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(152,45): error C2039: "FCodecConfig": 不是 "AVEncoder::FVideoEncoder" 的成员
+12>    CodecConfig = AVEncoder::FVideoEncoder::FCodecConfig();
+12>                                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoder.h(22,111): note: 参见“AVEncoder::FVideoEncoder”的声明
+12>    class UE_DEPRECATED(5.4, "AVEncoder has been deprecated. Please use the AVCodecs plugin family instead.") FVideoEncoder
+12>                                                                                                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(152,45): error C3861: “FCodecConfig”: 找不到标识符
+12>    CodecConfig = AVEncoder::FVideoEncoder::FCodecConfig();
+12>                                            ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(153,5): error C2065: “CodecConfig”: 未声明的标识符
+12>    CodecConfig.bLowLatency = Settings.Quality.bLowLatency;
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(154,5): error C2065: “CodecConfig”: 未声明的标识符
+12>    CodecConfig.GOPLength = Settings.Quality.GOPLength;
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(155,5): error C2065: “CodecConfig”: 未声明的标识符
+12>    CodecConfig.MaxNumBFrames = Settings.Quality.BFrames;
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(156,5): error C2065: “CodecConfig”: 未声明的标识符
+12>    CodecConfig.bEnableFrameReordering = Settings.Quality.BFrames > 0;
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(158,16): warning C4996: 'AVEncoder::FVideoEncoder': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    AVEncoder::FVideoEncoder::FInit EncoderInit;
+12>               ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(158,31): error C2039: "FInit": 不是 "AVEncoder::FVideoEncoder" 的成员
+12>    AVEncoder::FVideoEncoder::FInit EncoderInit;
+12>                              ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoder.h(22,111): note: 参见“AVEncoder::FVideoEncoder”的声明
+12>    class UE_DEPRECATED(5.4, "AVEncoder has been deprecated. Please use the AVCodecs plugin family instead.") FVideoEncoder
+12>                                                                                                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(158,31): error C2065: “FInit”: 未声明的标识符
+12>    AVEncoder::FVideoEncoder::FInit EncoderInit;
+12>                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(158,37): error C2146: 语法错误: 缺少“;”(在标识符“EncoderInit”的前面)
+12>    AVEncoder::FVideoEncoder::FInit EncoderInit;
+12>                                    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(158,37): error C2065: “EncoderInit”: 未声明的标识符
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(159,5): error C2065: “EncoderInit”: 未声明的标识符
+12>    EncoderInit.Codec = bUseHEVC ? AVEncoder::ECodec::HEVC : AVEncoder::ECodec::H264;
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(159,47): error C3083: “ECodec”:“::”左侧的符号必须是一种类型
+12>    EncoderInit.Codec = bUseHEVC ? AVEncoder::ECodec::HEVC : AVEncoder::ECodec::H264;
+12>                                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(159,55): error C2039: "HEVC": 不是 "AVEncoder" 的成员
+12>    EncoderInit.Codec = bUseHEVC ? AVEncoder::ECodec::HEVC : AVEncoder::ECodec::H264;
+12>                                                      ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoderCommon.h(13,11): note: 参见“AVEncoder”的声明
+12>namespace AVEncoder
+12>          ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(159,55): error C2065: “HEVC”: 未声明的标识符
+12>    EncoderInit.Codec = bUseHEVC ? AVEncoder::ECodec::HEVC : AVEncoder::ECodec::H264;
+12>                                                      ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(159,73): error C3083: “ECodec”:“::”左侧的符号必须是一种类型
+12>    EncoderInit.Codec = bUseHEVC ? AVEncoder::ECodec::HEVC : AVEncoder::ECodec::H264;
+12>                                                                        ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(159,81): error C2039: "H264": 不是 "AVEncoder" 的成员
+12>    EncoderInit.Codec = bUseHEVC ? AVEncoder::ECodec::HEVC : AVEncoder::ECodec::H264;
+12>                                                                                ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoderCommon.h(13,11): note: 参见“AVEncoder”的声明
+12>namespace AVEncoder
+12>          ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(159,81): error C2065: “H264”: 未声明的标识符
+12>    EncoderInit.Codec = bUseHEVC ? AVEncoder::ECodec::HEVC : AVEncoder::ECodec::H264;
+12>                                                                                ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(160,5): error C2065: “EncoderInit”: 未声明的标识符
+12>    EncoderInit.CodecConfig = CodecConfig;
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(160,31): error C2065: “CodecConfig”: 未声明的标识符
+12>    EncoderInit.CodecConfig = CodecConfig;
+12>                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(161,5): error C2065: “EncoderInit”: 未声明的标识符
+12>    EncoderInit.Layers.Add(LayerConfig);
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(163,39): warning C4996: 'AVEncoder::FVideoEncoder': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    auto OnEncodedPacket = AVEncoder::FVideoEncoder::FOnEncodedPacket::CreateLambda([this](const AVEncoder::FVideoEncoder::FEncodedPacket& Packet)
+12>                                      ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(163,54): error C3083: “FOnEncodedPacket”:“::”左侧的符号必须是一种类型
+12>    auto OnEncodedPacket = AVEncoder::FVideoEncoder::FOnEncodedPacket::CreateLambda([this](const AVEncoder::FVideoEncoder::FEncodedPacket& Packet)
+12>                                                     ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(163,72): error C2039: "CreateLambda": 不是 "AVEncoder::FVideoEncoder" 的成员
+12>    auto OnEncodedPacket = AVEncoder::FVideoEncoder::FOnEncodedPacket::CreateLambda([this](const AVEncoder::FVideoEncoder::FEncodedPacket& Packet)
+12>                                                                       ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoder.h(22,111): note: 参见“AVEncoder::FVideoEncoder”的声明
+12>    class UE_DEPRECATED(5.4, "AVEncoder has been deprecated. Please use the AVCodecs plugin family instead.") FVideoEncoder
+12>                                                                                                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(163,109): warning C4996: 'AVEncoder::FVideoEncoder': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    auto OnEncodedPacket = AVEncoder::FVideoEncoder::FOnEncodedPacket::CreateLambda([this](const AVEncoder::FVideoEncoder::FEncodedPacket& Packet)
+12>                                                                                                            ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(163,124): error C2039: "FEncodedPacket": 不是 "AVEncoder::FVideoEncoder" 的成员
+12>    auto OnEncodedPacket = AVEncoder::FVideoEncoder::FOnEncodedPacket::CreateLambda([this](const AVEncoder::FVideoEncoder::FEncodedPacket& Packet)
+12>                                                                                                                           ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoder.h(22,111): note: 参见“AVEncoder::FVideoEncoder”的声明
+12>    class UE_DEPRECATED(5.4, "AVEncoder has been deprecated. Please use the AVCodecs plugin family instead.") FVideoEncoder
+12>                                                                                                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(177,5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+12>    });
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(163,138): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+12>    auto OnEncodedPacket = AVEncoder::FVideoEncoder::FOnEncodedPacket::CreateLambda([this](const AVEncoder::FVideoEncoder::FEncodedPacket& Packet)
+12>                                                                                                                                         ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(172,9): error C2065: “Packet”: 未声明的标识符
+12>        Packet.ToAnnexB(AnnexBBuffer);
+12>        ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(163,72): error C3861: “CreateLambda”: 找不到标识符
+12>    auto OnEncodedPacket = AVEncoder::FVideoEncoder::FOnEncodedPacket::CreateLambda([this](const AVEncoder::FVideoEncoder::FEncodedPacket& Packet)
+12>                                                                       ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(179,31): warning C4996: 'AVEncoder::FVideoEncoderFactory': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    VideoEncoder = AVEncoder::FVideoEncoderFactory::Create(*EncoderInput, EncoderInit, MoveTemp(OnEncodedPacket));
+12>                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(179,75): error C2065: “EncoderInit”: 未声明的标识符
+12>    VideoEncoder = AVEncoder::FVideoEncoderFactory::Create(*EncoderInput, EncoderInit, MoveTemp(OnEncodedPacket));
+12>                                                                          ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(179,88): error C2672: “MoveTemp”: 未找到匹配的重载函数
+12>    VideoEncoder = AVEncoder::FVideoEncoderFactory::Create(*EncoderInput, EncoderInit, MoveTemp(OnEncodedPacket));
+12>                                                                                       ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UnrealTemplate.h(549,81): note: 可能是“remove_reference<_Ty>::type &&MoveTemp(T &&) noexcept”
+12>UE_INTRINSIC_CAST UE_NODEBUG FORCEINLINE constexpr std::remove_reference_t<T>&& MoveTemp(T&& Obj) noexcept
+12>                                                                                ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(179,88): note: 未能使函数模板“remove_reference<_Ty>::type &&MoveTemp(T &&) noexcept”专用化
+12>    VideoEncoder = AVEncoder::FVideoEncoderFactory::Create(*EncoderInput, EncoderInit, MoveTemp(OnEncodedPacket));
+12>                                                                                       ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(179,88): note: 用下列模板参数:
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(179,88): note: “T=unknown-type &”
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(210,9): error C3861: “RHIWaitGPUFence”: 找不到标识符
+12>        RHIWaitGPUFence(Frame.ReadyFence);
+12>        ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(224,27): warning C4996: 'AVEncoder::FVideoEncoderInputFrame': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    TSharedPtr<AVEncoder::FVideoEncoderInputFrame> InputFrame;
+12>                          ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(227,36): error C2039: "CreateEncoderInputFrame": 不是 "AVEncoder::FVideoEncoderInput" 的成员
+12>        InputFrame = EncoderInput->CreateEncoderInputFrame();
+12>                                   ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoderFactory.h(19,8): note: 参见“AVEncoder::FVideoEncoderInput”的声明
+12>	class FVideoEncoderInput;
+12>	      ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(234,31): error C2665: “AVEncoder::FVideoEncoderInputFrame::SetTexture”: 没有重载函数可以转换所有参数类型
+12>                    InputFrame->SetTexture(PlaneIndex, Frame.EncoderTextures[PlaneIndex]);
+12>                              ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoderInput.h(274,22): note: 可能是“void AVEncoder::FVideoEncoderInputFrame::SetTexture(VkImage,AVEncoder::FVideoEncoderInputFrame::FReleaseVulkanTextureCallback)”
+12>		AVENCODER_API void SetTexture(VkImage InTexture, FReleaseVulkanTextureCallback InOnReleaseTexture);
+12>		                   ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(234,31): note: “void AVEncoder::FVideoEncoderInputFrame::SetTexture(VkImage,AVEncoder::FVideoEncoderInputFrame::FReleaseVulkanTextureCallback)”: 无法将参数 1 从“int32”转换为“VkImage”
+12>                    InputFrame->SetTexture(PlaneIndex, Frame.EncoderTextures[PlaneIndex]);
+12>                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(234,44): note: 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+12>                    InputFrame->SetTexture(PlaneIndex, Frame.EncoderTextures[PlaneIndex]);
+12>                                           ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoderInput.h(223,22): note: 或    “void AVEncoder::FVideoEncoderInputFrame::SetTexture(ID3D12Resource *,AVEncoder::FVideoEncoderInputFrame::FReleaseD3D12TextureCallback)”
+12>		AVENCODER_API void SetTexture(ID3D12Resource* InTexture, FReleaseD3D12TextureCallback InOnReleaseD3D11Texture);
+12>		                   ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(234,31): note: “void AVEncoder::FVideoEncoderInputFrame::SetTexture(ID3D12Resource *,AVEncoder::FVideoEncoderInputFrame::FReleaseD3D12TextureCallback)”: 无法将参数 1 从“int32”转换为“ID3D12Resource *”
+12>                    InputFrame->SetTexture(PlaneIndex, Frame.EncoderTextures[PlaneIndex]);
+12>                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(234,44): note: 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+12>                    InputFrame->SetTexture(PlaneIndex, Frame.EncoderTextures[PlaneIndex]);
+12>                                           ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoderInput.h(206,22): note: 或    “void AVEncoder::FVideoEncoderInputFrame::SetTexture(ID3D11Texture2D *,AVEncoder::FVideoEncoderInputFrame::FReleaseD3D11TextureCallback)”
+12>		AVENCODER_API void SetTexture(ID3D11Texture2D* InTexture, FReleaseD3D11TextureCallback InOnReleaseD3D11Texture);
+12>		                   ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(234,31): note: “void AVEncoder::FVideoEncoderInputFrame::SetTexture(ID3D11Texture2D *,AVEncoder::FVideoEncoderInputFrame::FReleaseD3D11TextureCallback)”: 无法将参数 1 从“int32”转换为“ID3D11Texture2D *”
+12>                    InputFrame->SetTexture(PlaneIndex, Frame.EncoderTextures[PlaneIndex]);
+12>                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(234,44): note: 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+12>                    InputFrame->SetTexture(PlaneIndex, Frame.EncoderTextures[PlaneIndex]);
+12>                                           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(234,31): note: 尝试匹配参数列表“(int32, const TRefCountPtr<FRHITexture>)”时
+12>                    InputFrame->SetTexture(PlaneIndex, Frame.EncoderTextures[PlaneIndex]);
+12>                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(242,36): error C2039: "CreateEncoderInputFrameFromRHITexture": 不是 "AVEncoder::FVideoEncoderInput" 的成员
+12>        InputFrame = EncoderInput->CreateEncoderInputFrameFromRHITexture(Frame.Texture);
+12>                                   ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoderFactory.h(19,8): note: 参见“AVEncoder::FVideoEncoderInput”的声明
+12>	class FVideoEncoderInput;
+12>	      ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(251,17): error C2039: "SetFrameIndex": 不是 "AVEncoder::FVideoEncoderInputFrame" 的成员
+12>    InputFrame->SetFrameIndex(Frame.Metadata.FrameIndex);
+12>                ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoder.h(20,8): note: 参见“AVEncoder::FVideoEncoderInputFrame”的声明
+12>	class FVideoEncoderInputFrame;
+12>	      ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(252,17): error C2039: "SetKeyFrame": 不是 "AVEncoder::FVideoEncoderInputFrame" 的成员
+12>    InputFrame->SetKeyFrame(Frame.Metadata.bKeyFrame);
+12>                ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoder.h(20,8): note: 参见“AVEncoder::FVideoEncoderInputFrame”的声明
+12>	class FVideoEncoderInputFrame;
+12>	      ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(254,17): error C2660: “AVEncoder::FVideoEncoder::Encode”: 函数不接受 1 个参数
+12>    VideoEncoder->Encode(InputFrame);
+12>                ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoder.h(93,16): note: 参见“AVEncoder::FVideoEncoder::Encode”的声明
+12>		virtual void Encode(const TSharedPtr<FVideoEncoderInputFrame> frame, FEncodeOptions const& options) {}
+12>		             ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(254,17): note: 尝试匹配参数列表“(TSharedPtr<AVEncoder::FVideoEncoderInputFrame,ESPMode::ThreadSafe>)”时
+12>    VideoEncoder->Encode(InputFrame);
+12>                ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureNVENCEncoder.cpp(250,15): warning C4996: 'AVEncoder::FVideoEncoderInputFrame::SetTimestampUs': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    InputFrame->SetTimestampUs(static_cast<uint64>(Frame.Metadata.Timecode * 1'000'000.0));
+12>              ^
+12>[21/30] Link [x64] UnrealEditor-JJJ.lib
+12>  正在创建库 C:/Users/Administrator/Documents/Unreal Projects/JJJ/Intermediate/Build/Win64/x64/UnrealEditor/Development/JJJ/UnrealEditor-JJJ.lib 和对象 C:/Users/Administrator/Documents/Unreal Projects/JJJ/Intermediate/Build/Win64/x64/UnrealEditor/Development/JJJ/UnrealEditor-JJJ.exp
+12>[22/30] Compile [x64] OmniCaptureModule.cpp
+12>[23/30] Compile [x64] SOmniCaptureControlPanel.cpp
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): error C2065: “FImagePixelData”: 未声明的标识符
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): note: 参见“FImagePixelData”的声明
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2976: “TUniquePtr'”: 模板 参数太少
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,30): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCaptureEditor\Private\SOmniCaptureControlPanel.cpp(222,5): error C2679: 二元“=”: 没有找到接受“TSharedRef<FActiveTimerHandle,ESPMode::ThreadSafe>”类型的右操作数的运算符(或没有可接受的转换)
+12>    ActiveTimerHandle = RegisterActiveTimer(0.25f, FWidgetActiveTimerDelegate::CreateSP(this, &SOmniCaptureControlPanel::HandleActiveTimer));
+12>    ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Delegates\IDelegateInstance.h(70,1): note: 可能是“FDelegateHandle &FDelegateHandle::operator =(FDelegateHandle &&)”
+12>};
+12>^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Delegates\IDelegateInstance.h(70,1): note: 或    “FDelegateHandle &FDelegateHandle::operator =(const FDelegateHandle &)”
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCaptureEditor\Private\SOmniCaptureControlPanel.cpp(222,5): note: 尝试匹配参数列表“(FDelegateHandle, TSharedRef<FActiveTimerHandle,ESPMode::ThreadSafe>)”时
+12>    ActiveTimerHandle = RegisterActiveTimer(0.25f, FWidgetActiveTimerDelegate::CreateSP(this, &SOmniCaptureControlPanel::HandleActiveTimer));
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCaptureEditor\Private\SOmniCaptureControlPanel.cpp(324,91): error C2440: “=”: 无法从“const void *”转换为“void *”
+12>        ParentWindowHandle = FSlateApplication::Get().FindBestParentWindowHandleForDialogs(nullptr);
+12>                                                                                          ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCaptureEditor\Private\SOmniCaptureControlPanel.cpp(324,91): note: 转换丢失限定符
+12>[24/30] Compile [x64] OmniCaptureSubsystem.cpp
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): error C2065: “FImagePixelData”: 未声明的标识符
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,13): note: 参见“FImagePixelData”的声明
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,2): error C2976: “TUniquePtr'”: 模板 参数太少
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureTypes.h(112,30): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>	TUniquePtr<FImagePixelData> PixelData;
+12>	                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(10,16): error C2065: “FImagePixelData”: 未声明的标识符
+12>    TUniquePtr<FImagePixelData> PixelData;
+12>               ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(10,5): error C2923: "TUniquePtr": "FImagePixelData" 不是参数 "T" 的有效 模板 类型参数
+12>    TUniquePtr<FImagePixelData> PixelData;
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(10,16): note: 参见“FImagePixelData”的声明
+12>    TUniquePtr<FImagePixelData> PixelData;
+12>               ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(10,5): error C2976: “TUniquePtr'”: 模板 参数太少
+12>    TUniquePtr<FImagePixelData> PixelData;
+12>    ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(10,33): error C2955: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>    TUniquePtr<FImagePixelData> PixelData;
+12>                                ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureEquirectConverter.h(16,5): warning C4996: 'FTexture2DRHIRef': The separate RHI texture types were unified in UE 5.1. FTexture2DRHIRef is now deprecated. Use FTextureRHIRef instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    FTexture2DRHIRef Texture;
+12>    ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureNVENCEncoder.h(50,27): warning C4996: 'AVEncoder::FVideoEncoder': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    TSharedPtr<AVEncoder::FVideoEncoder> VideoEncoder;
+12>                          ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureNVENCEncoder.h(51,27): warning C4996: 'AVEncoder::FVideoEncoderInput': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    TSharedPtr<AVEncoder::FVideoEncoderInput> EncoderInput;
+12>                          ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureNVENCEncoder.h(52,31): warning C4996: 'AVEncoder::FVideoEncoder::FLayerConfig': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>    AVEncoder::FVideoEncoder::FLayerConfig LayerConfig;
+12>                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureNVENCEncoder.h(53,31): error C2039: "FCodecConfig": 不是 "AVEncoder::FVideoEncoder" 的成员
+12>    AVEncoder::FVideoEncoder::FCodecConfig CodecConfig;
+12>                              ^
+12>X:\UE_5.6\Engine\Source\Runtime\AVEncoder\Public\VideoEncoder.h(22,111): note: 参见“AVEncoder::FVideoEncoder”的声明
+12>    class UE_DEPRECATED(5.4, "AVEncoder has been deprecated. Please use the AVCodecs plugin family instead.") FVideoEncoder
+12>                                                                                                              ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureNVENCEncoder.h(53,44): error C3646: “CodecConfig”: 未知重写说明符
+12>    AVEncoder::FVideoEncoder::FCodecConfig CodecConfig;
+12>                                           ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Public\OmniCaptureNVENCEncoder.h(53,55): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+12>    AVEncoder::FVideoEncoder::FCodecConfig CodecConfig;
+12>                                                      ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureSubsystem.cpp(376,24): error C2672: “MoveTemp”: 未找到匹配的重载函数
+12>    Frame->PixelData = MoveTemp(Result.PixelData);
+12>                       ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UnrealTemplate.h(549,81): note: 可能是“remove_reference<_Ty>::type &&MoveTemp(T &&) noexcept”
+12>UE_INTRINSIC_CAST UE_NODEBUG FORCEINLINE constexpr std::remove_reference_t<T>&& MoveTemp(T&& Obj) noexcept
+12>                                                                                ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureSubsystem.cpp(376,24): note: 未能使函数模板“remove_reference<_Ty>::type &&MoveTemp(T &&) noexcept”专用化
+12>    Frame->PixelData = MoveTemp(Result.PixelData);
+12>                       ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureSubsystem.cpp(376,24): note: 用下列模板参数:
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureSubsystem.cpp(376,24): note: “T=TUniquePtr &”
+12>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\INCLUDE\xtr1common(236,78): note: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>using _Remove_cvref_t _MSVC_KNOWN_SEMANTICS = remove_cv_t<remove_reference_t<_Ty>>;
+12>                                                                             ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureSubsystem.cpp(797,29): error C2039: "GetDiskFreeSpaceW": 不是 "IFileManager" 的成员
+12>    if (IFileManager::Get().GetDiskFreeSpace(*ActiveSettings.OutputDirectory, FreeBytes, TotalBytes))
+12>                            ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\HAL\FileManager.h(56,7): note: 参见“IFileManager”的声明
+12>class IFileManager
+12>      ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureSubsystem.cpp(984,24): error C2672: “MoveTemp”: 未找到匹配的重载函数
+12>    Frame->PixelData = MoveTemp(ConversionResult.PixelData);
+12>                       ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UnrealTemplate.h(549,81): note: 可能是“remove_reference<_Ty>::type &&MoveTemp(T &&) noexcept”
+12>UE_INTRINSIC_CAST UE_NODEBUG FORCEINLINE constexpr std::remove_reference_t<T>&& MoveTemp(T&& Obj) noexcept
+12>                                                                                ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureSubsystem.cpp(984,24): note: 未能使函数模板“remove_reference<_Ty>::type &&MoveTemp(T &&) noexcept”专用化
+12>    Frame->PixelData = MoveTemp(ConversionResult.PixelData);
+12>                       ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureSubsystem.cpp(984,24): note: 用下列模板参数:
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureSubsystem.cpp(984,24): note: “T=TUniquePtr &”
+12>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\INCLUDE\xtr1common(236,78): note: “TUniquePtr”: 使用 类 模板 需要 模板 参数列表
+12>using _Remove_cvref_t _MSVC_KNOWN_SEMANTICS = remove_cv_t<remove_reference_t<_Ty>>;
+12>                                                                             ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\Templates\UniquePtr.h(106,1): note: 参见“TUniquePtr”的声明
+12>class TUniquePtr : private Deleter
+12>^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureSubsystem.cpp(998,48): error C2039: "GetRenderTargetItem": 不是 "IPooledRenderTarget" 的成员
+12>        if (FRHITexture* PlaneTexture = Plane->GetRenderTargetItem().ShaderResourceTexture)
+12>                                               ^
+12>X:\UE_5.6\Engine\Source\Runtime\Engine\Public\TextureResource.h(36,8): note: 参见“IPooledRenderTarget”的声明
+12>struct IPooledRenderTarget;
+12>       ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureSubsystem.cpp(1000,17): warning C4996: 'FTexture2DRHIRef': The separate RHI texture types were unified in UE 5.1. FTexture2DRHIRef is now deprecated. Use FTextureRHIRef instead. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+12>            if (FTexture2DRHIRef TextureRef = PlaneTexture->GetTexture2D())
+12>                ^
+12>C:\Users\Administrator\Documents\Unreal Projects\JJJ\Plugins\OmniCapture\Source\OmniCapture\Private\OmniCaptureSubsystem.cpp(1268,55): error C2039: "GetDiskFreeSpaceW": 不是 "IFileManager" 的成员
+12>        if (ThresholdBytes > 0 && IFileManager::Get().GetDiskFreeSpace(*ActiveSettings.OutputDirectory, FreeBytes, TotalBytes))
+12>                                                      ^
+12>X:\UE_5.6\Engine\Source\Runtime\Core\Public\HAL\FileManager.h(56,7): note: 参见“IFileManager”的声明
+12>class IFileManager
+12>      ^
+12>[25/30] Link [x64] UnrealEditor-JJJ.dll
+12>Trace written to file C:/Users/Administrator/AppData/Local/UnrealBuildTool/Log.uba with size 65.1kb
+12>Total time in Unreal Build Accelerator local executor: 39.86 seconds
+12>
+12>Result: Failed (OtherCompilationError)
+12>Total execution time: 45.18 seconds
+12>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: 命令“X:\UE_5.6\Engine\Build\BatchFiles\Build.bat JJJEditor Win64 Development -Project="C:\Users\Administrator\Documents\Unreal Projects\JJJ\JJJ.uproject" -WaitMutex -FromMsBuild -architecture=x64”已退出，代码为 6。
+12>已完成生成项目“JJJ.vcxproj”的操作 - 失败。
+========== 生成: 11 成功，1 失败，0 最新，0 已跳过 ==========
+========== 生成 于 10:01 完成，耗时 02:33.885 分钟 ==========
