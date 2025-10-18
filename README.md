@@ -34,6 +34,23 @@ Plugins/
 3. Build the project in Visual Studio 2022.
 4. Enable **Panorama Capture** in the project’s plugin settings (Windows only).
 
+### Troubleshooting build failures on Windows
+
+Large modules such as the capture pipeline can exhaust the compiler's precompiled-header
+allocation when Visual Studio is configured with a small paging file. If you encounter
+errors similar to:
+
+```
+c1xx : error C3859: Failed to create PCH's virtual memory
+c1xx : fatal error C1076: compiler limit: internal heap limit reached
+```
+
+increase the Windows page file size (System Properties → Advanced → Performance →
+Settings → Advanced → Virtual memory) or lower Unreal Build Tool's parallel compile
+count by adding `-MaxParallelActions=4` to your build command. Unreal Build Accelerator
+logs will also indicate when paging space is exhausted; once the system has more virtual
+memory the build will proceed normally.
+
 ## Using the Plugin
 
 1. Drag an actor with a `Panorama Capture Component` into the level.
